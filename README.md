@@ -13,7 +13,7 @@ Este comando permite buscar os IPs associados a um determinado endereço de host
 
 #### Exemplo:
 ```
-$ minha-aplicacao ip --host google.com
+$ go run main.go ip --host google.com
 ```
 
 ### 2. Busca de Servidores
@@ -24,7 +24,7 @@ Este comando permite buscar os nomes dos servidores públicos associados a um de
 
 #### Exemplo:
 ```
-$ minha-aplicacao servidores --host google.com
+$ go run main.go servidores --host google.com
 ```
 
 ## Dependências
